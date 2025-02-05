@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    padding-right: 550px;
+}
+.souivy{
+    padding-left: 550px;
+}
+.principal{
+    width: 100%;
+    height: auto;
+}
+.primeira{
+    position: relative;
+    width: 100%;
+    z-index: 0;
+    height: 660px;
+    display: flex;
+    background-image: url('./imgs/fundo\ certo.png');
+    background-size: cover; /* A imagem cobre toda a div */
+    background-position: center; /* A imagem será centralizada */
+    object-fit: contain;
+
+}   
+.pessoas{
+    display: flex;
+    justify-content: right;
+    width: 1050px;
+    height: 850px;
+    margin-left:30px;
+    margin-top: -210px
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 250px;
+    padding-top: 75px;
+}
+.grupoivory{
+    display: flex;
+    width: 450px;
+    height: auto;
+}
+.texto1{
+    font-family: "Changa";
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+.saiba-mais{
+    width: 300px;
+    height: 65px;
+    border-radius: 5px;
+    border: 5px solid #ffffff;
+    background-color: transparent; /* Fundo transparente */
+    color: white;
+    font-family: "Changa";
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer; /* Cursor de ponteiro quando passa o mouse */
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+.saiba-mais:hover{
+    background-color: #d0d1d1; /* Muda a cor ao passar o mouse */
+}
+.segunda{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height :100vh;
+    position: relative;
+    z-index: 1;
+}
+.fundo2{
+    width: 100%;
+    margin-top: -65px ;
+}
+.conteudo2{
+    position: relative;
+    z-index: 2;
+    margin-top: -905px;
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
+    margin-top: -1005px;
+    margin-left: 1100px;
+    font-family: "Changa";
+    gap: 15px;
+}
+.cara{
+    width: 1100px;
+    height: auto;
+    margin-left: 150px;
+}
+.texto2{
+    font-size: 60px;
+    font-weight: 600;
+    color: #513686;
+    text-transform: uppercase;
+}
+.texto3{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000000;
+}
+.saiba-mais2{
+    width: 300px;
+    height: 65px;
+    border-radius: 5px;
+    border: none;
+    background-color: #DD4E80 ; /* Fundo transparente */
+    color: white;
+    font-family: "Changa";
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer; /* Cursor de ponteiro quando passa o mouse */
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+.saiba-mais:hover{
+    background-color: #d0d1d1; /* Muda a cor ao passar o mouse */
+}
+.terceira{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height :100vh;
+    position: relative;
+    z-index: 2;
+}
+.fundo3{
+    width: 100%;
+    margin-top: 107px;
+}
+.conteudo3{
+    position: relative;
+    z-index: 2;
+    margin-top: -905px;
+}
+.coluna2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 250px;
+}
+.quadro{
+    display: flex;
+    width: 800px ;
+    height: auto;
+    margin-left: 940px;
+    margin-top: -700px;
+}
+.texto4{
+    font-size: 60px;
+    font-weight: 600;
+    color: #DD4E80;
+    text-transform: uppercase;
+    font-family: "Changa";
+}
+.texto5{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: "Inter";
+    color: #ffffff;
+}
+.saiba-mais3{
+    width: 300px;
+    height: 65px;
+    border-radius: 5px;
+    border: none;
+    background-color: #51B9A3 ; /* Fundo transparente */
+    color: #005596;
+    font-family: "Changa";
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer; /* Cursor de ponteiro quando passa o mouse */
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+    margin-top: 30px;
+}
+.saiba-mais:hover{
+    background-color: #d0d1d1; /* Muda a cor ao passar o mouse */
+}
+.rodape{
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff;
+    font-family: "Changa";
+}
+.Somos{
+    font-size: 40px;
+}
+.desc{
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 300;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #fff;
+}
+.links a {
+    color: inherit; /* Herda a cor do elemento pai */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    font-size: 20px;
+    font-weight: 100px;
+    font-family: "Changa";
+}
+
+.links a:hover {
+    text-decoration: underline; /* Opcional: adiciona sublinhado ao passar o mouse */
+    color: #ff0000; /* Opcional: muda a cor ao passar o mouse */
+}
+.Links{
+    font-size: 40px;
+    font-family: "Changa";
+    font-weight: 600;   
+}
+.logorodape{
+    width: 100px;
+    height: auto;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #fff;
+}
+.contact a{
+    color: inherit; /* Herda a cor do elemento pai */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    font-size: 20px;
+    font-weight: 100px;
+    font-family: "Changa";
+}
+.contact a:hover{
+    text-decoration: underline; /* Opcional: adiciona sublinhado ao passar o mouse */
+    color: #ff0000; /* Opcional: muda a cor ao passar o mouse */
+}
+.contato{
+    font-family: "Changa";
+    font-size: 40px;
+    font-weight: 600;
+}
+.dados{
+    font-size: 20px;
+    margin-bottom: 145px;
+}
+.dentro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
